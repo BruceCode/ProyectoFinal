@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.1.4" orientation="orthogonal" renderorder="right-down" width="20" height="15" tilewidth="70" tileheight="70" infinite="0" nextobjectid="23">
+ <properties>
+  <property name="titulo" value="Elimina todos los enemigos"/>
+ </properties>
+ <tileset firstgid="1" name="sheet" tilewidth="70" tileheight="70" tilecount="49" columns="7">
+  <image source="../../images/sheet.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="50" name="enemigo4" tilewidth="51" tileheight="28" tilecount="2" columns="2">
+  <image source="../../images/enemigo4.png" width="102" height="28"/>
+ </tileset>
+ <layer name="fondo" width="20" height="15">
+  <data encoding="base64" compression="zlib">
+   eJzTYaAeUKWiWaNgFIyCoQ9kqWiWGBADAH7bAIU=
+  </data>
+ </layer>
+ <layer name="oneway" width="20" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAdcKBhfHK41OIzYyQDQuFGLbMHIxjs7hsF5ANC5QIxZQYIAABMHQFZ
+  </data>
+ </layer>
+ <layer name="solido" width="20" height="15">
+  <properties>
+   <property name="imagen" value="sheet.png"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIKhAQAEsAAB
+  </data>
+ </layer>
+ <objectgroup name="objetos">
+  <object id="16" name="gelatina" type="enemigo" gid="50" x="162.5" y="184" width="51" height="28"/>
+ </objectgroup>
+</map>

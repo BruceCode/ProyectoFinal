@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="70" tileheight="70" nextobjectid="23">
+ <properties>
+  <property name="titulo" value=""/>
+ </properties>
+ <tileset firstgid="1" name="sheet" tilewidth="70" tileheight="70" tilecount="49">
+  <image source="../../images/sheet.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="50" name="enemigo4" tilewidth="51" tileheight="28" tilecount="2">
+  <image source="../../images/enemigo4.png" width="102" height="28"/>
+ </tileset>
+ <layer name="solido" width="16" height="12">
+  <properties>
+   <property name="imagen" value="sheet.png"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYMANuICYGY88DEgCsRQQCxGhH5dabGp0gViQCPXDAZASLvQIC3WoXSCsQKYZclBMCMD8he43dP241FFiPwDm9AO5
+  </data>
+ </layer>
+ <objectgroup name="objetos">
+  <object id="3" name="Player" x="553" y="359" width="16" height="16"/>
+  <object id="14" name="gelatina" type="enemigo" gid="50" x="928.5" y="682" width="51" height="28"/>
+  <object id="15" name="gelatina" type="enemigo" gid="50" x="168.5" y="690" width="51" height="28"/>
+  <object id="16" name="gelatina" type="enemigo" gid="50" x="434.5" y="126" width="51" height="28"/>
+  <object id="17" name="gelatina" type="enemigo" gid="50" x="536.5" y="536" width="51" height="28"/>
+  <object id="18" name="gelatina" type="enemigo" gid="50" x="88.5" y="64" width="51" height="28"/>
+  <object id="19" name="gelatina" type="enemigo" gid="50" x="854.5" y="58" width="51" height="28"/>
+  <object id="20" name="gelatina" type="enemigo" gid="50" x="152.5" y="402" width="51" height="28"/>
+  <object id="21" name="gelatina" type="enemigo" gid="50" x="912.5" y="408" width="51" height="28"/>
+  <object id="22" name="gelatina" type="enemigo" gid="50" x="670.5" y="118" width="51" height="28"/>
+ </objectgroup>
+ <layer name="fondo" width="16" height="12" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2DkAgADAAAB
+  </data>
+ </layer>
+</map>

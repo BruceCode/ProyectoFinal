@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="20" height="15" tilewidth="70" tileheight="70" nextobjectid="35">
+ <properties>
+  <property name="titulo" value="Fase final"/>
+ </properties>
+ <tileset firstgid="1" name="sheet" tilewidth="70" tileheight="70" tilecount="49">
+  <image source="../../images/sheet.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="50" name="enemigo4" tilewidth="51" tileheight="28" tilecount="2">
+  <image source="../../images/enemigo4.png" width="102" height="28"/>
+ </tileset>
+ <layer name="solido" width="20" height="15">
+  <properties>
+   <property name="imagen" value="sheet.png"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYKA9kARiKSAWIlGOFPNJ0Q+zk1R7ydVHbUCqf0nVT6k8pfZTC2BLW7jikBrpcLAAWscvrdMHPgAA5ZMECw==
+  </data>
+ </layer>
+ <objectgroup name="objetos">
+  <object id="14" name="gelatina" type="enemigo" gid="50" x="1228.5" y="888.061" width="51" height="28"/>
+  <object id="15" name="gelatina" type="enemigo" gid="50" x="116.985" y="890" width="51" height="28"/>
+  <object id="16" name="gelatina" type="enemigo" gid="50" x="964.803" y="377.515" width="51" height="28"/>
+  <object id="17" name="gelatina" type="enemigo" gid="50" x="400.136" y="814.788" width="51" height="28"/>
+  <object id="18" name="gelatina" type="enemigo" gid="50" x="394.561" y="379.152" width="51" height="28"/>
+  <object id="19" name="gelatina" type="enemigo" gid="50" x="1233.29" y="445.879" width="51" height="28"/>
+  <object id="20" name="gelatina" type="enemigo" gid="50" x="110.076" y="441.394" width="51" height="28"/>
+  <object id="21" name="gelatina" type="enemigo" gid="50" x="951.894" y="808" width="51" height="28"/>
+  <object id="22" name="gelatina" type="enemigo" gid="50" x="618.985" y="596.788" width="51" height="28"/>
+  <object id="23" name="gelatina" type="enemigo" gid="50" x="280.561" y="613.273" width="51" height="28"/>
+  <object id="24" name="gelatina" type="enemigo" gid="50" x="1065.41" y="586" width="51" height="28"/>
+  <object id="25" name="gelatina" type="enemigo" gid="50" x="677.53" y="313.273" width="51" height="28"/>
+  <object id="26" name="gelatina" type="enemigo" gid="50" x="701.773" y="125.394" width="51" height="28"/>
+  <object id="27" name="gelatina" type="enemigo" gid="50" x="110.864" y="192.061" width="51" height="28"/>
+  <object id="28" name="gelatina" type="enemigo" gid="50" x="286.621" y="189.03" width="51" height="28"/>
+  <object id="29" name="gelatina" type="enemigo" gid="50" x="1068.44" y="182.97" width="51" height="28"/>
+  <object id="30" name="gelatina" type="enemigo" gid="50" x="1262.38" y="179.939" width="51" height="28"/>
+  <object id="31" name="gelatina" type="enemigo" gid="50" x="435.106" y="49.6364" width="51" height="28"/>
+  <object id="32" name="gelatina" type="enemigo" gid="50" x="926.015" y="52.6667" width="51" height="28"/>
+  <object id="33" name="gelatina" type="enemigo" gid="50" x="753.288" y="607.212" width="51" height="28"/>
+  <object id="34" name="Player" x="701.091" y="816.242" width="16" height="16"/>
+ </objectgroup>
+ <layer name="fondo" width="20" height="15" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIKhAQAEsAAB
+  </data>
+ </layer>
+</map>
